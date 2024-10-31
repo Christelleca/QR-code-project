@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>QR Code generator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="src/css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>QR Code Generator</h1>
+            <div class="image">
+                <img
+                    src="src/image/d912c0_988dbcfe3bd0428ba0188916c1df2b9a~mv2.webp"
+                    alt="photo no image"
+                    id="image"
+                />
+            </div>
+            <div class="form">
+                <input
+                    type="text"
+                    id="content"
+                    placeholder="Content in QRCode"
+                />
+                <button id="btnCreate">Create QRCode</button>
+            </div>
+        </div>
+        <script src="src/app.js"></script>
+    </body>
+</html>
