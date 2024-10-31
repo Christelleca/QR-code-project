@@ -10,11 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(
-        135deg,
-        #ffecd2,
-        #fcb69f
-    ); /* Dégradé chaleureux */
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
     color: #1a202c;
 }
 
@@ -83,7 +79,7 @@ button {
     font-size: 1rem;
     font-weight: 500;
     color: #fff;
-    background-color: #ff7f50; /* Corail doux */
+    background-color: #ff7f50;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -91,7 +87,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff6347; /* Corail intense */
+    background-color: #ff6347;
 }
 
 button:active {
